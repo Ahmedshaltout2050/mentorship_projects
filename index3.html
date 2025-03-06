@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل حساب</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            margin: auto;
+        }
+        input, select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Register Page</h2>
+        <label>Username: <input type="text" value="Ravi kumar"></label>
+        <label>Password: <input type="password" value="********"></label>
+        <label>Email: <input type="email" value="ravi@987.gmail.com"></label>
+        <label>Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Others
+        </label>
+        <label>Phone:
+            <select>
+                <option>+91</option>
+                <option>+20</option>
+                <option>+44</option>
+            </select>
+            <input type="text" value="76******">
+        </label>
+        <button type="submit">Submit</button>
+        <p>Already a user? <a href="#">Login Here</a></p>
+    </div>
+</body>
+</html>
